@@ -1,0 +1,2514 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Text To Emojis, Convert letters to emoji, emojis, copypasta emojis">
+	<meta name="author" content="H.M. - Reach me at h.emojiproject@gmail.com">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Text to Emojis: Turn words to emojis and select your own emojis</title>
+	<meta name="description" content="Convert text to emojis by entering a word or letters of your choice 
+	and then select the emojis you want, or enter your own emojis!">
+  	<link rel="stylesheet" type="text/css" href="css\stylez.css">
+  	<link rel="icon" type="image/ico" href="images\T2Eicon.png" />
+</head>
+
+<body>
+
+	<div id="div1">
+	<div id="middleDiv">
+	
+<div id="InfoDiv">
+	<p id="donateText">Help me <br>keep the <br>website alive</p>
+	<textarea style="overflow:hidden" id="DonateTextArea" rows="5" cols="5" readonly>
+	</textarea>
+	<br>
+	<br>
+
+
+</div>
+
+<div id="DonationListDiv">
+	<p><b>Donation <br> progress bar</b></p>
+	1/30$
+	<div id="myProgress">
+ 		 <div id="myBar">3.33%</div>
+		</div>
+	<p>The website will go down in:</p>
+	<input type="text" name="endDatePara" id="endDatePara" readonly="">
+	<p>(30/3/2021)</p>
+</div>
+
+
+
+	<div id = "mainDiv">
+	<div id="headerDiv">
+	<h1 id="header1">Text To Emojis</h1>
+	</div>
+	<p>Enter your own text and have each letter<br> converted to emojis of your choice</p>
+	<hr>
+
+	<input id="inputTXTfield" type="text" placeholder="Your text here" onfocus="this.placeholder = ''"
+	onblur="this.placeholder = 'Your text here'" autofocus> 
+
+<div id="divInputToolTip">
+	<p id="inputTooltip">I</p>
+	<span class="tooltiptext">
+	<p>Supported characters: a-z, "<3", 0-9</p>
+	</span>
+</div>	
+
+	<br><br>
+  	<p id="chooseOwnEmPara">Select the emojis you prefer..</p>
+
+ 	<select id="emojiList1" name="emojiList1">
+ 		<optgroup label="Emojis">
+	 		<option value=😀>😀</option>
+		    <option value=😃>😃</option>
+		    <option value=😁>😁</option>
+		    <option value=😅>😅</option>
+		    <option value=🤣>🤣</option>
+		    <option value=😂>😂</option>
+		    <option value=😍>😍</option>
+		    <option value=🥰>🥰</option>
+		    <option value=😇>😇</option>
+		    <option value=😊>😊</option>
+		    <option value=😜>😜</option>
+		    <option value=😏>😏</option>
+		    <option value=🤢>🤢</option>
+		    <option value=🥵>🥵</option>
+		    <option value=🥶>🥶</option>
+		    <option value=🤠>🤠</option>
+		    <option value=😎>😎</option>
+		    <option value=🤓>🤓</option>
+		    <option value=😨>😨</option>
+		    <option value=😢>😢</option>
+		    <option value=😭>😭</option>
+		    <option value=🤬>🤬</option>
+		    <option value=😈>😈</option>
+		    <option value=👻>👻</option>
+		    <option value=👽>👽</option>
+		    <option value=😷>😷</option>
+		</optgroup>
+		<optgroup label="-------">
+			<option value=👋>👋</option>
+			<option value=✋>✋</option>
+		    <option value=🖖>🖖</option>
+		    <option value=🖐️>🖐️</option>
+		    <option value=👌>👌</option>
+		    <option value=✌️>✌️</option>
+		    <option value=🤟>🤟</option>
+		    <option value=🤘>🤘</option>
+		    <option value=🤙>🤙</option>
+		    <option value=👈>👈</option>
+		    <option value=👉>👉</option>
+		    <option value=👆>👆</option>
+		    <option value=🖕>🖕</option>
+		    <option value=👇>👇</option>
+		    <option value=☝️>☝️</option>
+		    <option value=👍>👍</option>
+		    <option value=👎>👎</option>
+		    <option value=✊>✊</option>
+		    <option value=👏>👏</option>
+		    <option value=🙏>🙏</option>
+		    <option value=💪>💪</option>
+		    <option value=🦶>🦶</option>
+		    <option value=👂>👂</option>
+		    <option value=🧠>🧠</option>
+		    <option value=🦷>🦷</option>
+		    <option value=👀>👀</option>
+		    <option value=👁️>👁️</option>
+		    <option value=👅>👅</option>
+		    <option value=👄>👄</option>
+		</optgroup>
+		<optgroup label="-------">
+			<option value=👶>👶</option>
+		    <option value=🧒>🧒</option>
+		    <option value=👦>👦</option>
+		    <option value=👧>👧</option>
+		    <option value=🧑>🧑</option>
+		    <option value=🧔>🧔</option>
+		    <option value=👨‍🦲>👨‍🦲</option>
+		    <option value=👩>👩</option>
+		    <option value=👩‍🦱>👩‍🦱</option>
+		    <option value=👴>👴</option>
+		    <option value=👵>👵</option>
+		    <option value=🙍>🙍</option>
+		    <option value=🙅‍♂️>🙅‍♂️</option>
+		    <option value=💁‍♀️>💁‍♀️</option>
+		    <option value=🙋‍♂️>🙋‍♂️</option>
+		    <option value=🙇>🙇</option>
+		    <option value=🤦‍♂️>🤦‍♂️</option>
+		    <option value=👨‍🎓>👨‍🎓</option>
+		    <option value=👨‍🌾>👨‍🌾</option>
+		    <option value=👨‍🍳>👨‍🍳</option>
+		    <option value=👨‍💼>👨‍💼</option>
+		    <option value=👨‍🔬>👨‍🔬</option>
+		    <option value=👨‍💻>👨‍💻</option>
+		    <option value=👨‍🎤>👨‍🎤</option>
+		    <option value=👨‍🎨>👨‍🎨</option>
+		    <option value=👨‍✈️>👨‍✈️</option>
+		    <option value=👨‍🚀>👨‍🚀</option>
+		    <option value=👨‍🚒>👨‍🚒</option>
+		    <option value=👮>👮</option>
+		    <option value=🕵️>🕵️</option>
+		    <option value=💂>💂</option>
+		    <option value=👷>👷</option>
+		    <option value=🤴>🤴</option>
+		    <option value=👸>👸</option>
+		    <option value=👳‍♂️>👳‍♂️</option>
+		    <option value=🤵>🤵</option>
+		    <option value=👰>👰</option>
+		    <option value=🤰>🤰</option>
+		    <option value=🎅>🎅</option>
+		    <option value=🧙>🧙</option>
+		    <option value=🧛>🧛</option>
+		    <option value=🧞‍♂️>🧞‍♂️</option>
+		    <option value=🧟>🧟</option>
+		    <option value=🚶>🚶</option>
+		    <option value=👨‍🔧>👨‍🔧</option>
+		    <option value=🧍>🧍</option>
+		    <option value=🧎‍♂️>🧎‍♂️</option>
+		    <option value=👨‍🦯>👨‍🦯</option>
+		    <option value=👨‍🦼>👨‍🦼</option>
+		    <option value=👨‍🦽>👨‍🦽</option>
+		    <option value=🏃>🏃</option>
+		    <option value=💃>💃</option>
+		    <option value=💏>💏</option>
+		    <option value=👪>👪</option>
+		</optgroup>
+		<optgroup label="-------">
+	 		<option value=🙈>🙈</option>
+		    <option value=🙉>🙉</option>
+		    <option value=🙊>🙊</option>
+		    <option value=🐵>🐵</option>
+		    <option value=🐒>🐒</option>
+		    <option value=🦍>🦍</option>
+		    <option value=🐕>🐕</option>
+		    <option value=🐺>🐺</option>
+		    <option value=🦊>🦊</option>
+		    <option value=🦝>🦝</option>
+		    <option value=🐱>🐱</option>
+		    <option value=🐈>🐈</option>
+		    <option value=🐅>🐅</option>
+		    <option value=🐎>🐎</option>
+		    <option value=🦄>🦄</option>
+		    <option value=🐄>🐄</option>
+		    <option value=🐷>🐷</option>
+		    <option value=🐖>🐖</option>
+		    <option value=🐐>🐐</option>
+		    <option value=🐀>🐀</option>
+		    <option value=🦇>🦇</option>
+		    <option value=🐻>🐻</option>
+		    <option value=🦘>🦘</option>
+		    <option value=🐧>🐧</option>
+		    <option value=🦜>🦜</option>
+		    <option value=🐉>🐉</option>
+		    <option value=🦖>🦖</option>
+		    <option value=🐳>🐳</option>
+		    <option value=🐬>🐬</option>
+		    <option value=🐟>🐟</option>
+		    <option value=🦈>🦈</option>
+		    <option value=🦋>🦋</option>
+		    <option value=🦗>🦗</option>
+		</optgroup>
+		<optgroup label="-------">
+			<option value=🌹>🌹</option>
+		    <option value=🌻>🌻</option>
+		    <option value=🌲>🌲</option>
+		    <option value=🌴>🌴</option>
+		    <option value=🍀>🍀</option>
+		    <option value=☘️>☘️</option>
+		    <option value=🍃>🍃</option>
+		    <option value=🍄>🍄</option>
+		    <option value=🌍>🌍</option>
+		    <option value=🌑>🌑</option>
+		    <option value=🌒>🌒</option>
+		    <option value=🌓>🌓</option>
+		    <option value=🌔>🌔</option>
+		    <option value=🌕>🌕</option>
+		    <option value=🌖>🌖</option>
+		    <option value=🌗>🌗</option>
+		    <option value=🌘>🌘</option>
+		    <option value=🌙>🌙</option>
+		    <option value=🌚>🌚</option>
+		    <option value=☀️>☀️</option>
+		    <option value=🌝>🌝</option>
+		    <option value=🌞>🌞</option>
+		    <option value=⭐>⭐</option>
+		    <option value=🌠>🌠</option>
+		    <option value=🌈>🌈</option>
+		    <option value=⛅>⛅</option>
+		    <option value=☁️>☁️</option>
+		    <option value=🌬️>🌬️</option>
+		    <option value=☔>☔</option>
+		    <option value=⚡>⚡</option>
+		    <option value=❄️>❄️</option>
+		    <option value=☃️>☃️</option>
+		    <option value=⛄>⛄</option>
+		    <option value=☄️>☄️</option>
+		    <option value=🔥>🔥</option>
+		    <option value=💧>💧</option>
+		    <option value=🌊>🌊</option>
+		    <option value=🎄>🎄</option>
+		    <option value=✨>✨</option>
+			<option value=🦠>🦠</option>
+		</optgroup>
+		<optgroup label="-------">
+	 		<option value=🍇>🍇</option>
+		    <option value=🍉>🍉</option>
+		    <option value=🍋>🍋</option>
+		    <option value=🍌>🍌</option>
+		    <option value=🍍>🍍</option>
+		    <option value=🥭>🥭</option>
+		    <option value=🍏>🍏</option>
+		    <option value=🍑>🍑</option>
+		    <option value=🍒>🍒</option>
+		    <option value=🍓>🍓</option>
+		    <option value=🥝>🥝</option>
+		    <option value=🥥>🥥</option>
+		    <option value=🥑>🥑</option>
+		    <option value=🍆>🍆</option>
+		    <option value=🥕>🥕</option>
+		    <option value=🌽>🌽</option>
+		    <option value=🥦>🥦</option>
+		    <option value=🧄>🧄</option>
+		    <option value=🧅>🧅</option>
+		    <option value=🍞>🍞</option>
+		    <option value=🥖>🥖</option>
+		    <option value=🥞>🥞</option>
+		    <option value=🍗>🍗</option>
+		    <option value=🍖>🍖</option>
+		    <option value=🧀>🧀</option>
+		    <option value=🥩>🥩</option>
+		    <option value=🥓>🥓</option>
+		    <option value=🍔>🍔</option>
+		    <option value=🍟>🍟</option>
+		    <option value=🍕>🍕</option>
+		    <option value=🌭>🌭</option>
+		    <option value=🍳>🍳</option>
+		    <option value=🍿>🍿</option>
+		    <option value=🧂>🧂</option>
+		    <option value=🍱>🍱</option>
+		    <option value=🍜>🍜</option>
+			<option value=🍣>🍣</option>
+		    <option value=🍦>🍦</option>
+		    <option value=🍩>🍩</option>
+		    <option value=🍪>🍪</option>
+		    <option value=🎂>🎂</option>
+		    <option value=🍫>🍫</option>
+		    <option value=🍬>🍬</option>
+		    <option value=🍭>🍭</option>
+		    <option value=🍯>🍯</option>
+		    <option value=🍷>🍷</option>
+		    <option value=🍸>🍸</option>
+		    <option value=🍹>🍹</option>
+		    <option value=🍺>🍺</option>
+		    <option value=🍻>🍻</option>
+		    <option value=🥂>🥂</option>
+		    <option value=🧊>🧊</option>
+		    <option value=🍽️>🍽️</option>
+		    <option value=🍴>🍴</option>
+		</optgroup>
+		<optgroup label="-------">
+	 		<option value=🚣‍♂️>🚣‍♂️</option>
+		    <option value=⛹️‍♂️>⛹️‍♂️</option>
+		    <option value=🏋️>🏋️</option>
+		    <option value=🚴‍♂️>🚴‍♂️</option>
+		    <option value=🛹>🛹</option>
+		    <option value=🎪>🎪</option>
+		    <option value=🏆>🏆</option>
+		    <option value=🏅>🏅</option>
+		    <option value=⚽>⚽</option>
+		    <option value=⚾>⚾</option>
+		    <option value=🏀>🏀</option>
+		    <option value=🏐>🏐</option>
+		    <option value=🏈>🏈</option>
+		    <option value=🎾>🎾</option>
+		    <option value=🎳>🎳</option>
+		    <option value=🏒>🏒</option>
+		    <option value=🏓>🏓</option>
+		    <option value=⛳>⛳</option>
+		    <option value=🎣>🎣</option>
+		    <option value=🎯>🎯</option>
+		    <option value=🎱>🎱</option>
+		    <option value=🎮>🎮</option>
+		    <option value=🎰>🎰</option>
+		    <option value=♟️>♟️</option>
+		    <option value=🎨>🎨</option>
+		    <option value=🎤>🎤</option>
+		    <option value=🎧>🎧</option>
+		    <option value=🎺>🎺</option>
+		    <option value=🎸>🎸</option>
+		</optgroup>
+		<optgroup label="-------" >
+	 		<option value=🏕️>🏕️</option>
+		    <option value=🏟️>🏟️</option>
+		    <option value=🏠>🏠</option>
+		    <option value=🏫>🏫</option>
+		    <option value=⛺>⛺</option>
+		    <option value=🌅>🌅</option>
+		    <option value=🚂>🚂</option>
+		    <option value=🚌>🚌</option>
+		    <option value=🚒>🚒</option>
+		    <option value=🚓>🚓</option>
+		    <option value=🚕>🚕</option>
+		    <option value=🚜>🚜</option>
+		    <option value=🏎️>🏎️</option>
+		    <option value=🏍️>🏍️</option>
+		    <option value=🚦>🚦</option>
+		    <option value=✈️>✈️</option>
+		    <option value=🚢>🚢</option>
+		    <option value=🚁>🚁</option>
+		    <option value=🚀>🚀</option>
+		    <option value=🛰️>🛰️</option>
+		    <option value=🗻>🗻</option>
+		    <option value=🌌>🌌</option>
+		</optgroup>
+		<optgroup label="-------">
+ 		 	<option value=☂️>☂️</option>
+		    <option value=👓>👓</option>
+		    <option value=🕶️>🕶️</option>
+		    <option value=👔>👔</option>
+		    <option value=🥼>🥼</option>
+		    <option value=🧦>🧦</option>
+		    <option value=👗>👗</option>
+		    <option value=🩳>🩳</option>
+		    <option value=🩲>🩲</option>
+		    <option value=👞>👞</option>
+		    <option value=👑>👑</option>
+		    <option value=🎓>🎓</option>
+		    <option value=💍>💍</option>
+		    <option value=💼>💼</option>
+		    <option value=💄>💄</option>
+		    <option value=💣>💣</option>
+		    <option value=🛌>🛌</option>
+		    <option value=🔪>🔪</option>
+		    <option value=⏰>⏰</option>
+		    <option value=🌡️>🌡️</option>
+		    <option value=🔮>🔮</option>
+		    <option value=📱>📱</option>
+		    <option value=🎥>🎥</option>
+		    <option value=💡>💡</option>
+		    <option value=📘>📘</option>
+		    <option value=📚>📚</option>
+		    <option value=💰>💰</option>
+		    <option value=💵>💵</option>
+		    <option value=💸>💸</option>
+		    <option value=📦>📦</option>
+		    <option value=✏️>✏️</option>
+		    <option value=🔒>🔒</option>
+		    <option value=🔑>🔑</option>
+		    <option value=🪓>🪓</option>
+		    <option value=🔫>🔫</option>
+		    <option value=🛡️>🛡️</option>
+		    <option value=💉>💉</option>
+		    <option value=💊>💊</option>
+		    <option value=🚬>🚬</option>
+			<option value=⚰️>⚰️</option>
+		</optgroup>
+		<optgroup label="-------">
+	 		<option value=💘>💘</option>
+		    <option value=💝>💝</option>
+		    <option value=💖>💖</option>
+		    <option value=💗>💗</option>
+		    <option value=💓>💓</option>
+		    <option value=💞>💞</option>
+		    <option value=💕>💕</option>
+		    <option value=💟>💟</option>
+		    <option value=❣️>❣️</option>
+		    <option value=💔>💔</option>
+		    <option value=❤️>❤️</option>
+		    <option value=🧡>🧡</option>
+		    <option value=💛>💛</option>
+		    <option value=💚>💚</option>
+		    <option value=💙>💙</option>
+		    <option value=💜>💜</option>
+		    <option value=🤎>🤎</option>
+		    <option value=🖤>🖤</option>
+		    <option value=🤍>🤍</option>
+		    <option value=💯>💯</option>
+		    <option value=💤>💤</option>
+		    <option value=♥️>♥️</option>
+		    <option value=♠️>♠️</option>
+		    <option value=♦️>♦️</option>
+		    <option value=♣️>♣️</option>
+		    <option value=🔊>🔊</option>
+		    <option value=🔔>🔔</option>
+		    <option value=🔞>🔞</option>
+		    <option value=☢️>☢️</option>
+		    <option value=☣️>☣️</option>
+		    <option value=⁉️>⁉️</option>
+		    <option value=‼️>‼️</option>
+		    <option value=✔️>✔️</option>
+		    <option value=❌>❌</option>
+		    <option value=🅱️>🅱️</option>
+		</optgroup>
+  	</select>
+   	
+   	<select id="emojiList2" name="emojiList2">
+	    <optgroup label="Emojis">
+	 		<option value=😈>😈</option>
+		    <option value=😃>😃</option>
+		    <option value=😁>😁</option>
+		    <option value=😅>😅</option>
+		    <option value=🤣>🤣</option>
+		    <option value=😂>😂</option>
+		    <option value=😍>😍</option>
+		    <option value=🥰>🥰</option>
+		    <option value=😇>😇</option>
+		    <option value=😊>😊</option>
+		    <option value=😜>😜</option>
+		    <option value=😏>😏</option>
+		    <option value=🤢>🤢</option>
+		    <option value=🥵>🥵</option>
+		    <option value=🥶>🥶</option>
+		    <option value=🤠>🤠</option>
+		    <option value=😎>😎</option>
+		    <option value=🤓>🤓</option>
+		    <option value=😨>😨</option>
+		    <option value=😢>😢</option>
+		    <option value=😭>😭</option>
+		    <option value=🤬>🤬</option>
+		    <option value=😀>😀</option>
+		    <option value=👻>👻</option>
+		    <option value=👽>👽</option>
+		    <option value=😷>😷</option>
+		</optgroup>
+		<optgroup label="-------">
+			<option value=👋>👋</option>
+			<option value=✋>✋</option>
+		    <option value=🖖>🖖</option>
+		    <option value=🖐️>🖐️</option>
+		    <option value=👌>👌</option>
+		    <option value=✌️>✌️</option>
+		    <option value=🤟>🤟</option>
+		    <option value=🤘>🤘</option>
+		    <option value=🤙>🤙</option>
+		    <option value=👈>👈</option>
+		    <option value=👉>👉</option>
+		    <option value=👆>👆</option>
+		    <option value=🖕>🖕</option>
+		    <option value=👇>👇</option>
+		    <option value=☝️>☝️</option>
+		    <option value=👍>👍</option>
+		    <option value=👎>👎</option>
+		    <option value=✊>✊</option>
+		    <option value=👏>👏</option>
+		    <option value=🙏>🙏</option>
+		    <option value=💪>💪</option>
+		    <option value=🦶>🦶</option>
+		    <option value=👂>👂</option>
+		    <option value=🧠>🧠</option>
+		    <option value=🦷>🦷</option>
+		    <option value=👀>👀</option>
+		    <option value=👁️>👁️</option>
+		    <option value=👅>👅</option>
+		    <option value=👄>👄</option>
+		</optgroup>
+		<optgroup label="-------">
+			<option value=👶>👶</option>
+		    <option value=🧒>🧒</option>
+		    <option value=👦>👦</option>
+		    <option value=👧>👧</option>
+		    <option value=🧑>🧑</option>
+		    <option value=🧔>🧔</option>
+		    <option value=👨‍🦲>👨‍🦲</option>
+		    <option value=👩>👩</option>
+		    <option value=👩‍🦱>👩‍🦱</option>
+		    <option value=👴>👴</option>
+		    <option value=👵>👵</option>
+		    <option value=🙍>🙍</option>
+		    <option value=🙅‍♂️>🙅‍♂️</option>
+		    <option value=💁‍♀️>💁‍♀️</option>
+		    <option value=🙋‍♂️>🙋‍♂️</option>
+		    <option value=🙇>🙇</option>
+		    <option value=🤦‍♂️>🤦‍♂️</option>
+		    <option value=👨‍🎓>👨‍🎓</option>
+		    <option value=👨‍🌾>👨‍🌾</option>
+		    <option value=👨‍🍳>👨‍🍳</option>
+		    <option value=👨‍💼>👨‍💼</option>
+		    <option value=👨‍🔬>👨‍🔬</option>
+		    <option value=👨‍💻>👨‍💻</option>
+		    <option value=👨‍🎤>👨‍🎤</option>
+		    <option value=👨‍🎨>👨‍🎨</option>
+		    <option value=👨‍✈️>👨‍✈️</option>
+		    <option value=👨‍🚀>👨‍🚀</option>
+		    <option value=👨‍🚒>👨‍🚒</option>
+		    <option value=👮>👮</option>
+		    <option value=🕵️>🕵️</option>
+		    <option value=💂>💂</option>
+		    <option value=👷>👷</option>
+		    <option value=🤴>🤴</option>
+		    <option value=👸>👸</option>
+		    <option value=👳‍♂️>👳‍♂️</option>
+		    <option value=🤵>🤵</option>
+		    <option value=👰>👰</option>
+		    <option value=🤰>🤰</option>
+		    <option value=🎅>🎅</option>
+		    <option value=🧙>🧙</option>
+		    <option value=🧛>🧛</option>
+		    <option value=🧞‍♂️>🧞‍♂️</option>
+		    <option value=🧟>🧟</option>
+		    <option value=🚶>🚶</option>
+		    <option value=👨‍🔧>👨‍🔧</option>
+		    <option value=🧍>🧍</option>
+		    <option value=🧎‍♂️>🧎‍♂️</option>
+		    <option value=👨‍🦯>👨‍🦯</option>
+		    <option value=👨‍🦼>👨‍🦼</option>
+		    <option value=👨‍🦽>👨‍🦽</option>
+		    <option value=🏃>🏃</option>
+		    <option value=💃>💃</option>
+		    <option value=💏>💏</option>
+		    <option value=👪>👪</option>
+		</optgroup>
+		<optgroup label="-------">
+	 		<option value=🙈>🙈</option>
+		    <option value=🙉>🙉</option>
+		    <option value=🙊>🙊</option>
+		    <option value=🐵>🐵</option>
+		    <option value=🐒>🐒</option>
+		    <option value=🦍>🦍</option>
+		    <option value=🐕>🐕</option>
+		    <option value=🐺>🐺</option>
+		    <option value=🦊>🦊</option>
+		    <option value=🦝>🦝</option>
+		    <option value=🐱>🐱</option>
+		    <option value=🐈>🐈</option>
+		    <option value=🐅>🐅</option>
+		    <option value=🐎>🐎</option>
+		    <option value=🦄>🦄</option>
+		    <option value=🐄>🐄</option>
+		    <option value=🐷>🐷</option>
+		    <option value=🐖>🐖</option>
+		    <option value=🐐>🐐</option>
+		    <option value=🐀>🐀</option>
+		    <option value=🦇>🦇</option>
+		    <option value=🐻>🐻</option>
+		    <option value=🦘>🦘</option>
+		    <option value=🐧>🐧</option>
+		    <option value=🦜>🦜</option>
+		    <option value=🐉>🐉</option>
+		    <option value=🦖>🦖</option>
+		    <option value=🐳>🐳</option>
+		    <option value=🐬>🐬</option>
+		    <option value=🐟>🐟</option>
+		    <option value=🦈>🦈</option>
+		    <option value=🦋>🦋</option>
+		    <option value=🦗>🦗</option>
+		</optgroup>
+		<optgroup label="-------">
+			<option value=🌹>🌹</option>
+		    <option value=🌻>🌻</option>
+		    <option value=🌲>🌲</option>
+		    <option value=🌴>🌴</option>
+		    <option value=🍀>🍀</option>
+		    <option value=☘️>☘️</option>
+		    <option value=🍃>🍃</option>
+		    <option value=🍄>🍄</option>
+		    <option value=🌍>🌍</option>
+		    <option value=🌑>🌑</option>
+		    <option value=🌒>🌒</option>
+		    <option value=🌓>🌓</option>
+		    <option value=🌔>🌔</option>
+		    <option value=🌕>🌕</option>
+		    <option value=🌖>🌖</option>
+		    <option value=🌗>🌗</option>
+		    <option value=🌘>🌘</option>
+		    <option value=🌙>🌙</option>
+		    <option value=🌚>🌚</option>
+		    <option value=☀️>☀️</option>
+		    <option value=🌝>🌝</option>
+		    <option value=🌞>🌞</option>
+		    <option value=⭐>⭐</option>
+		    <option value=🌠>🌠</option>
+		    <option value=🌈>🌈</option>
+		    <option value=⛅>⛅</option>
+		    <option value=☁️>☁️</option>
+		    <option value=🌬️>🌬️</option>
+		    <option value=☔>☔</option>
+		    <option value=⚡>⚡</option>
+		    <option value=❄️>❄️</option>
+		    <option value=☃️>☃️</option>
+		    <option value=⛄>⛄</option>
+		    <option value=☄️>☄️</option>
+		    <option value=🔥>🔥</option>
+		    <option value=💧>💧</option>
+		    <option value=🌊>🌊</option>
+		    <option value=🎄>🎄</option>
+		    <option value=✨>✨</option>
+			<option value=🦠>🦠</option>
+		</optgroup>
+		<optgroup label="-------">
+	 		<option value=🍇>🍇</option>
+		    <option value=🍉>🍉</option>
+		    <option value=🍋>🍋</option>
+		    <option value=🍌>🍌</option>
+		    <option value=🍍>🍍</option>
+		    <option value=🥭>🥭</option>
+		    <option value=🍏>🍏</option>
+		    <option value=🍑>🍑</option>
+		    <option value=🍒>🍒</option>
+		    <option value=🍓>🍓</option>
+		    <option value=🥝>🥝</option>
+		    <option value=🥥>🥥</option>
+		    <option value=🥑>🥑</option>
+		    <option value=🍆>🍆</option>
+		    <option value=🥕>🥕</option>
+		    <option value=🌽>🌽</option>
+		    <option value=🥦>🥦</option>
+		    <option value=🧄>🧄</option>
+		    <option value=🧅>🧅</option>
+		    <option value=🍞>🍞</option>
+		    <option value=🥖>🥖</option>
+		    <option value=🥞>🥞</option>
+		    <option value=🍗>🍗</option>
+		    <option value=🍖>🍖</option>
+		    <option value=🧀>🧀</option>
+		    <option value=🥩>🥩</option>
+		    <option value=🥓>🥓</option>
+		    <option value=🍔>🍔</option>
+		    <option value=🍟>🍟</option>
+		    <option value=🍕>🍕</option>
+		    <option value=🌭>🌭</option>
+		    <option value=🍳>🍳</option>
+		    <option value=🍿>🍿</option>
+		    <option value=🧂>🧂</option>
+		    <option value=🍱>🍱</option>
+		    <option value=🍜>🍜</option>
+			<option value=🍣>🍣</option>
+		    <option value=🍦>🍦</option>
+		    <option value=🍩>🍩</option>
+		    <option value=🍪>🍪</option>
+		    <option value=🎂>🎂</option>
+		    <option value=🍫>🍫</option>
+		    <option value=🍬>🍬</option>
+		    <option value=🍭>🍭</option>
+		    <option value=🍯>🍯</option>
+		    <option value=🍷>🍷</option>
+		    <option value=🍸>🍸</option>
+		    <option value=🍹>🍹</option>
+		    <option value=🍺>🍺</option>
+		    <option value=🍻>🍻</option>
+		    <option value=🥂>🥂</option>
+		    <option value=🧊>🧊</option>
+		    <option value=🍽️>🍽️</option>
+		    <option value=🍴>🍴</option>
+		</optgroup>
+		<optgroup label="-------">
+	 		<option value=🚣‍♂️>🚣‍♂️</option>
+		    <option value=⛹️‍♂️>⛹️‍♂️</option>
+		    <option value=🏋️>🏋️</option>
+		    <option value=🚴‍♂️>🚴‍♂️</option>
+		    <option value=🛹>🛹</option>
+		    <option value=🎪>🎪</option>
+		    <option value=🏆>🏆</option>
+		    <option value=🏅>🏅</option>
+		    <option value=⚽>⚽</option>
+		    <option value=⚾>⚾</option>
+		    <option value=🏀>🏀</option>
+		    <option value=🏐>🏐</option>
+		    <option value=🏈>🏈</option>
+		    <option value=🎾>🎾</option>
+		    <option value=🎳>🎳</option>
+		    <option value=🏒>🏒</option>
+		    <option value=🏓>🏓</option>
+		    <option value=⛳>⛳</option>
+		    <option value=🎣>🎣</option>
+		    <option value=🎯>🎯</option>
+		    <option value=🎱>🎱</option>
+		    <option value=🎮>🎮</option>
+		    <option value=🎰>🎰</option>
+		    <option value=♟️>♟️</option>
+		    <option value=🎨>🎨</option>
+		    <option value=🎤>🎤</option>
+		    <option value=🎧>🎧</option>
+		    <option value=🎺>🎺</option>
+		    <option value=🎸>🎸</option>
+		</optgroup>
+		<optgroup label="-------" >
+	 		<option value=🏕️>🏕️</option>
+		    <option value=🏟️>🏟️</option>
+		    <option value=🏠>🏠</option>
+		    <option value=🏫>🏫</option>
+		    <option value=⛺>⛺</option>
+		    <option value=🌅>🌅</option>
+		    <option value=🚂>🚂</option>
+		    <option value=🚌>🚌</option>
+		    <option value=🚒>🚒</option>
+		    <option value=🚓>🚓</option>
+		    <option value=🚕>🚕</option>
+		    <option value=🚜>🚜</option>
+		    <option value=🏎️>🏎️</option>
+		    <option value=🏍️>🏍️</option>
+		    <option value=🚦>🚦</option>
+		    <option value=✈️>✈️</option>
+		    <option value=🚢>🚢</option>
+		    <option value=🚁>🚁</option>
+		    <option value=🚀>🚀</option>
+		    <option value=🛰️>🛰️</option>
+		    <option value=🗻>🗻</option>
+		    <option value=🌌>🌌</option>
+		</optgroup>
+		<optgroup label="-------">
+ 		 	<option value=☂️>☂️</option>
+		    <option value=👓>👓</option>
+		    <option value=🕶️>🕶️</option>
+		    <option value=👔>👔</option>
+		    <option value=🥼>🥼</option>
+		    <option value=🧦>🧦</option>
+		    <option value=👗>👗</option>
+		    <option value=🩳>🩳</option>
+		    <option value=🩲>🩲</option>
+		    <option value=👞>👞</option>
+		    <option value=👑>👑</option>
+		    <option value=🎓>🎓</option>
+		    <option value=💍>💍</option>
+		    <option value=💼>💼</option>
+		    <option value=💄>💄</option>
+		    <option value=💣>💣</option>
+		    <option value=🛌>🛌</option>
+		    <option value=🔪>🔪</option>
+		    <option value=⏰>⏰</option>
+		    <option value=🌡️>🌡️</option>
+		    <option value=🔮>🔮</option>
+		    <option value=📱>📱</option>
+		    <option value=🎥>🎥</option>
+		    <option value=💡>💡</option>
+		    <option value=📘>📘</option>
+		    <option value=📚>📚</option>
+		    <option value=💰>💰</option>
+		    <option value=💵>💵</option>
+		    <option value=💸>💸</option>
+		    <option value=📦>📦</option>
+		    <option value=✏️>✏️</option>
+		    <option value=🔒>🔒</option>
+		    <option value=🔑>🔑</option>
+		    <option value=🪓>🪓</option>
+		    <option value=🔫>🔫</option>
+		    <option value=🛡️>🛡️</option>
+		    <option value=💉>💉</option>
+		    <option value=💊>💊</option>
+		    <option value=🚬>🚬</option>
+			<option value=⚰️>⚰️</option>
+		</optgroup>
+		<optgroup label="-------">
+	 		<option value=💘>💘</option>
+		    <option value=💝>💝</option>
+		    <option value=💖>💖</option>
+		    <option value=💗>💗</option>
+		    <option value=💓>💓</option>
+		    <option value=💞>💞</option>
+		    <option value=💕>💕</option>
+		    <option value=💟>💟</option>
+		    <option value=❣️>❣️</option>
+		    <option value=💔>💔</option>
+		    <option value=❤️>❤️</option>
+		    <option value=🧡>🧡</option>
+		    <option value=💛>💛</option>
+		    <option value=💚>💚</option>
+		    <option value=💙>💙</option>
+		    <option value=💜>💜</option>
+		    <option value=🤎>🤎</option>
+		    <option value=🖤>🖤</option>
+		    <option value=🤍>🤍</option>
+		    <option value=💯>💯</option>
+		    <option value=💤>💤</option>
+		    <option value=♥️>♥️</option>
+		    <option value=♠️>♠️</option>
+		    <option value=♦️>♦️</option>
+		    <option value=♣️>♣️</option>
+		    <option value=🔊>🔊</option>
+		    <option value=🔔>🔔</option>
+		    <option value=🔞>🔞</option>
+		    <option value=☢️>☢️</option>
+		    <option value=☣️>☣️</option>
+		    <option value=⁉️>⁉️</option>
+		    <option value=‼️>‼️</option>
+		    <option value=✔️>✔️</option>
+		    <option value=❌>❌</option>
+		    <option value=🅱️>🅱️</option>
+		</optgroup>
+  	</select><br><br>
+
+  	<p id="chooseOwnEmPara">..or enter your own emojis!</p>
+  	<input id="inputEmojifield1" class = "inputEmojiFields" type="text" maxlength = "2">
+  	<button id="SwapButton" onclick="SwapEmoji()"><input id="swapImg" type="image" alt="swap image - Horizontal swap" src="images/swap.png"></button>
+    <input id="inputEmojifield2" class = "inputEmojiFields" type="text" maxlength = "2"> 
+    <br><br>
+    <p>Select the size of your pasta!</p>
+    <div id="radioButtonsDiv">
+
+    <label><input id="radioButton" type="radio" name="size" value="small" checked="checked">small</label>
+	<label><input id="radioButton" type="radio" name="size" value="medium">medium</label> 
+    <!--<label><input id="radioButton" type="radio" name="size" value="big">big</label>-->
+    
+	</div>
+
+    <div id="takeVisitorToEmojiPage" onclick="location.href='https://emojipedia.org/';" style=""><p id="EmojipediaPara">Find emojis</p></div><br><br>
+
+	<button type="button" class="emojizeButton" onclick="sizeOfEmojipasta()">Emojize!</button><br><br>
+	<hr>
+	<button id="CopyButton" class="CopyButton" onclick="copyText()">Copy text</button><br><br>
+
+
+
+	<textarea id="emojiTextArea" rows="25" cols="50">
+	</textarea><br>
+	<div>
+	<p id="bottomPara"><i>If you feel like there's anything missing <br> - an emoji, feature or pattern, you may contact me
+		<br>at <i><a href="mailto:h.m@emojiproject.nu">h.m@text2emojis.nu</a></i>, and i'll add it ASAP.</i></p>
+	</div>
+
+</div>
+
+<div id="LinkageDiv">
+	<h3>Other Copypasta</h3>
+	<a href="https://www.twitchquotes.com/copypastas/ascii-art">
+	<div class="LinkageLinks">	
+	<p>ASCII-art</p>
+	<img class="linkImages" src="images/asciiart.png" alt="ASCII-art - Toucan">
+	</div>
+	</a>
+	<br>
+	<br>
+	<a href="https://twitch.gimu.org/">
+	<div class="LinkageLinks">
+	<p>Twitch Copypasta</p>
+	<img class="linkImages" src="images/kappa.png" alt="KappaFace - Twitch emote">
+	</div>
+	</a>
+	<br>
+	<br>
+	<a href="https://lingojam.com/FancyTextGenerator">
+	<div class="LinkageLinks" id="fancyTextDiv">
+	<p>Generate <br>some  🅵🅰🅽🅲🆈  <br>𝓽𝓮𝔁𝓽𝓼</p>
+	</div>
+	</a>
+</div>
+
+</div>
+
+
+</div>
+	<script>
+
+		var emoji1;
+		var emoji2;
+		var chosenEmoji1;
+		var chosenEmoji2;
+		var fullString;
+
+		window.location.hash = '#mainDiv';
+
+		window.onload = function() {
+  			printToDonateArea();
+  			calcDaysToEnd();
+		};
+
+
+	function sizeOfEmojipasta(){
+		var radios = document.getElementsByName('size');
+
+		for (var i = 0, length = radios.length; i < length; i++) {
+		  if (radios[i].checked) {
+		    // do whatever you want with the checked radio
+		    var radioValue = radios[i].value;
+		    if(radioValue === "small"){
+		    	printSmallToTextArea();
+		    }else if(radioValue === "medium"){
+		    	printToTextArea();
+		    }else{
+		    	printToTextArea();
+		    }
+
+		    // only one radio can be logically checked, don't check the rest
+		    break;
+  			}
+		}
+	}
+
+
+    function calcDaysToEnd(){
+    		var date1 = new Date("03/30/2021"); 
+			var date2 = new Date(); 
+			  
+			// To calculate the time difference of two dates 
+			var Difference_In_Time = date1.getTime() - date2.getTime(); 
+			  
+			// To calculate the no. of days between two dates 
+			var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24); 
+			  
+			//To display the final no. of days (result) 
+			var DisplayDays = Math.round(Difference_In_Days);
+			document.getElementById("endDatePara").value = DisplayDays + " days"; 
+
+    }
+
+
+
+
+
+		function SwapEmoji(){
+			var tmp = document.getElementById("inputEmojifield1").value;
+			document.getElementById("inputEmojifield1").value = document.getElementById("inputEmojifield2").value;
+			document.getElementById("inputEmojifield2").value = tmp;
+
+		}
+
+		function printToDonateArea(){
+
+			var emojiArr = ["🧡", "💛", "💚", "💘", "💝", "💗", "💖"]
+			var emojiArr2 = "‍" 
+			emoji3 = " ";
+	
+			fullString = "";			
+			
+			emoji1 = emojiArr2[Math.floor(Math.random() * emojiArr2.length)]; 
+			emoji2 = emojiArr[Math.floor(Math.random() * emojiArr.length)]; 
+
+			var donHeart = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji2, emoji2, emoji3, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji2, emoji2, emoji2, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, "\n"]
+					]
+
+
+			let resdonHeart = donHeart.join('')
+			var resultdonHeart = resdonHeart.replace(/,/g, "");
+			fullString += resultdonHeart;
+
+			document.getElementById("DonateTextArea").value = fullString; 
+		}
+
+		function isEmptyOrSpaces(str){
+ 			return str === null || str.match(/^ *$/) !== null;
+		}
+
+		function printSmallToTextArea(){
+			//var oko = String.fromCodePoint(0x1F354);
+
+			fullString = "";
+			chosenEmoji1 = document.getElementById("inputEmojifield1").value;
+			chosenEmoji2 = document.getElementById("inputEmojifield2").value;
+
+
+
+			if (isEmptyOrSpaces(chosenEmoji1)){
+				emoji1 = document.getElementById("emojiList1").value;
+			}else{
+				emoji1 = document.getElementById("inputEmojifield1").value;	
+			}
+			if (isEmptyOrSpaces(chosenEmoji2)) {
+				emoji2 =  document.getElementById("emojiList2").value;
+			}else{
+				emoji2 =  document.getElementById("inputEmojifield2").value;
+			}
+
+			/*
+				As some may point out, i've chosen to declare each letter into a variable. This might not be ideal. However, due to the simplicity of this project
+				it was the least problematic solution for me. Using Case for reviwing the values of the index could've been simplified with object oriented programming
+				by having an object take all the patterns of the letters and thereafter reviwing the object based on the input letters.
+
+
+			*/
+			var a = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var b = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+		
+			var c = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var d = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var e = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var f = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var g = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var h = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var ix = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var j = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var k = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var l = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var m = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji2, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var n = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji2, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var o = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var p = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var q = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji2, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var r = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var s = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var t = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var u = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var v = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var w = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji2, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var x = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var y = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var z = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var one = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var two = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var three = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var four = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var five = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var six = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var seven = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var eight = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			var nine = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+			 var zero = [
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji1, emoji2, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1,  emoji2, emoji1,"\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2,  emoji1, emoji1,"\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1,"\n"],
+					]
+
+		
+		
+			var inputArea = document.getElementById("inputTXTfield").value;
+			var inputToArray = inputArea.split('');
+			
+			var arrayLength = inputToArray.length;
+			
+
+			for (var i = 0; i < arrayLength; i++) {
+			   	var valueAtIndex = inputToArray[i];
+			    //Do something
+			    var lowerCvalueAtIndex = valueAtIndex.toLowerCase();
+
+					switch(lowerCvalueAtIndex) {
+					  case "a":
+						let resA = a.join('')
+						var resultA = resA.replace(/,/g, "");
+						fullString = fullString + resultA;
+				
+					    break;
+					  case "b":
+						let resB = b.join('')
+						var resultB = resB.replace(/,/g, "");
+						fullString = fullString + resultB;
+							  	 
+					    break;
+					  case "c":
+				     	let resC = c.join('')
+						var resultC = resC.replace(/,/g, "");
+						fullString = fullString + resultC;
+					    break;
+
+					  case "d":
+					    let resD = d.join('')
+						var resultD = resD.replace(/,/g, "");
+						fullString = fullString + resultD;
+					    break;
+					  case "e":
+					  	let resE = e.join('')
+						var resultE = resE.replace(/,/g, "");
+						fullString = fullString + resultE;
+					    break;
+					  case "f":
+					  	let resF = f.join('')
+						var resultF = resF.replace(/,/g, "");
+						fullString = fullString + resultF;
+					    break;
+					  case "g":
+					  	let resG = g.join('')
+						var resultG = resG.replace(/,/g, "");
+						fullString = fullString + resultG;
+					    break;
+					  case "h":
+					  	let resH = h.join('')
+						var resultH = resH.replace(/,/g, "");
+						fullString = fullString + resultH;
+					    break;
+					  case "i":
+					  	let resIX = ix.join('')
+						var resultIX = resIX.replace(/,/g, "");
+						fullString = fullString + resultIX;
+					    break;
+					  case "j":
+					  	let resJ = j.join('')
+						var resultJ = resJ.replace(/,/g, "");
+						fullString = fullString + resultJ;
+					    break;
+					  case "k":
+					  	let resK = k.join('')
+						var resultK = resK.replace(/,/g, "");
+						fullString = fullString + resultK;
+					    break;
+					  case "l":
+					  	let resL = l.join('')
+						var resultL = resL.replace(/,/g, "");
+						fullString = fullString + resultL;
+					    break;
+					  case "m":
+					  	let resM = m.join('')
+						var resultM = resM.replace(/,/g, "");
+						fullString = fullString + resultM;
+					    break;
+					  case "n":
+					  	let resN = n.join('')
+						var resultN = resN.replace(/,/g, "");
+						fullString = fullString + resultN;
+					    break;
+					  case "o":
+					  	let resO = o.join('')
+						var resultO = resO.replace(/,/g, "");
+						fullString = fullString + resultO;
+					    break;
+					  case "p":
+					  	let resP = p.join('')
+						var resultP = resP.replace(/,/g, "");
+						fullString = fullString + resultP;
+					    break;
+					  case "q":
+					    let resQ = q.join('')
+						var resultQ = resQ.replace(/,/g, "");
+						fullString = fullString + resultQ;  
+					    break;
+					  case "r":
+					    let resR = r.join('')
+						var resultR = resR.replace(/,/g, "");
+						fullString = fullString + resultR;  
+					    break;
+					  case "s":
+					  	let resS = s.join('')
+						var resultS = resS.replace(/,/g, "");
+						fullString = fullString + resultS;
+					    break;
+					  case "t":
+					    let resT = t.join('')
+						var resultT = resT.replace(/,/g, "");
+						fullString = fullString + resultT;  
+					    break;
+					  case "u":
+					    let resU = u.join('')
+						var resultU = resU.replace(/,/g, "");
+						fullString = fullString + resultU;  
+					    break;
+					  case "v":
+					    let resV = v.join('')
+						var resultV = resV.replace(/,/g, "");
+						fullString = fullString + resultV;  
+					    break;
+					  case "w":
+					    let resW = w.join('')
+						var resultW = resW.replace(/,/g, "");
+						fullString = fullString + resultW;  
+					    break;
+					  case "x":
+					    let resX = x.join('')
+						var resultX = resX.replace(/,/g, "");
+						fullString = fullString + resultX;  
+					    break;
+					  case "y":
+					    let resY = y.join('')
+						var resultY = resY.replace(/,/g, "");
+						fullString = fullString + resultY;  
+					    break;
+					  case "z":
+					    let resZ = z.join('')
+						var resultZ = resZ.replace(/,/g, "");
+						fullString = fullString + resultZ;  
+					    break;
+					  case "<":
+					  	if(inputToArray[i+1] == 3){
+							let resHeart = heart.join('')
+							var resultHeart = resHeart.replace(/,/g, "");
+							fullString = fullString + resultHeart; 
+					  	}
+					  	break;
+					  case "1":
+					    let resOne = one.join('')
+						var resultOne = resOne.replace(/,/g, "");
+						fullString = fullString + resultOne;
+						break;
+					  case "2":
+					    let resTwo = two.join('')
+						var resultTwo = resTwo.replace(/,/g, "");
+						fullString = fullString + resultTwo;
+						break;
+					  case "3":
+					  	if(inputToArray[i-1] != "<"){
+							let resThree = three.join('')
+							var resultThree = resThree.replace(/,/g, "");
+							fullString = fullString + resultThree; 
+					  	}
+
+						break;
+					  case "4":
+					    let resFour = four.join('')
+						var resultFour = resFour.replace(/,/g, "");
+						fullString = fullString + resultFour;
+						break;
+					  case "5":
+					    let resFive = five.join('')
+						var resultFive = resFive.replace(/,/g, "");
+						fullString = fullString + resultFive;
+						break;
+					  case "6":
+					    let resSix = six.join('')
+						var resultSix = resSix.replace(/,/g, "");
+						fullString = fullString + resultSix;
+						break;
+					  case "7":
+					    let resSeven = seven.join('')
+						var resultSeven = resSeven.replace(/,/g, "");
+						fullString = fullString + resultSeven;
+						break;
+					  case "8":
+					    let resEight = eight.join('')
+						var resultEight = resEight.replace(/,/g, "");
+						fullString = fullString + resultEight;
+						break;
+					  case "9":
+					    let resNine = nine.join('')
+						var resultNine = resNine.replace(/,/g, "");
+						fullString = fullString + resultNine;
+						break;
+					  case "0":
+					    let resZero = zero.join('')
+						var resultZero = resZero.replace(/,/g, "");
+						fullString = fullString + resultZero;
+						break;
+					  default:
+					    // code block
+					}
+
+				   document.getElementById("emojiTextArea").value = fullString;
+			  	   var Cbtn = document.getElementById("CopyButton");
+			       Cbtn.innerHTML = "Copy text"; 
+			 
+			}
+
+		}
+
+
+
+		function printToTextArea(){
+			//var oko = String.fromCodePoint(0x1F354);
+
+			fullString = "";
+			chosenEmoji1 = document.getElementById("inputEmojifield1").value;
+			chosenEmoji2 = document.getElementById("inputEmojifield2").value;
+
+
+
+			if (isEmptyOrSpaces(chosenEmoji1)){
+				emoji1 = document.getElementById("emojiList1").value;
+			}else{
+				emoji1 = document.getElementById("inputEmojifield1").value;	
+			}
+			if (isEmptyOrSpaces(chosenEmoji2)) {
+				emoji2 =  document.getElementById("emojiList2").value;
+			}else{
+				emoji2 =  document.getElementById("inputEmojifield2").value;
+			}
+
+			/*
+				As some may point out, i've chosen to declare each letter into a variable. This might not be ideal. However, due to the simplicity of this project
+				it was the least problematic solution for me. Using Case for reviwing the values of the index could've been simplified with object oriented programming
+				by having an object take all the patterns of the letters and thereafter reviwing the object based on the input letters.
+
+
+			*/
+			var a = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var b = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var c = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var d = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji2, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji2, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji2, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji2, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var e = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var f = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var g = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji2, emoji2,  emoji2, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji2, emoji2,  emoji2, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji2, "\n"], 
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var h = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var ix = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var j = [[ emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji2, emoji2, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var k = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji2, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var l = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var m = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji2, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var n = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji2, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji2, emoji2, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji2, emoji2, emoji2, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji2, emoji2, emoji2,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji2, emoji2,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var o = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var p = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+		 	var q = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji2, "\n"], 
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji2, emoji2, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var r = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var s = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var t = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var u = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var v = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var w = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji2, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var x = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji2, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"], 
+					[emoji2, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji2, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var y = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji2, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji2, "\n"],
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var z = [[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji2, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji2, "\n"],
+					[emoji2, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji2, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji2, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji2, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji2, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji2, "\n"], 
+					[emoji2, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji2, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"] 
+					]
+
+			var heart = [
+			        [emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji2, emoji1, "\n"],
+					[emoji2, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji2, "\n"],
+					[emoji2, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji2, "\n"],
+					[emoji2, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji2, "\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1, emoji1, emoji2,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					]
+
+			var one = [
+			        [emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"]
+					]
+
+			var two = [
+			        [emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"]
+					]
+
+			var three = [
+			        [emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji1, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"]
+					]
+
+			var four = [
+			        [emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"]
+					]
+
+			var five = [
+			        [emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"]
+					]
+
+			var six = [
+			        [emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"]
+					]
+
+			var seven = [
+			        [emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"]
+					]
+
+			var eight = [
+			        [emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji2, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji1, "\n"], 
+					[emoji1, emoji2, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"], 
+					[emoji1, emoji1, emoji2, emoji2, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"]
+					]
+
+			var nine = [
+			        [emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji1, emoji1,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji2,  emoji2, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji2, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji2, emoji2, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji2, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"]
+					]
+
+			var zero = [
+			        [emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji1, emoji1, "\n"],
+					[emoji1, emoji1, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji2, emoji1, emoji1, emoji1, emoji1,  emoji2, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji2, emoji2, emoji1, emoji1, emoji2,  emoji2, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji2, emoji2, emoji2, emoji2,  emoji1, emoji1, emoji1, "\n"], 
+					[emoji1, emoji1, emoji1, emoji1, emoji1, emoji1, emoji1,  emoji1, emoji1, emoji1, "\n"]
+					]
+
+
+			var inputArea = document.getElementById("inputTXTfield").value;
+			var inputToArray = inputArea.split('');
+			
+			var arrayLength = inputToArray.length;
+			
+
+			for (var i = 0; i < arrayLength; i++) {
+			   	var valueAtIndex = inputToArray[i];
+			    //Do something
+			    var lowerCvalueAtIndex = valueAtIndex.toLowerCase();
+
+					switch(lowerCvalueAtIndex) {
+					  case "a":
+						let resA = a.join('')
+						var resultA = resA.replace(/,/g, "");
+						fullString = fullString + resultA;
+				
+					    break;
+					  case "b":
+						let resB = b.join('')
+						var resultB = resB.replace(/,/g, "");
+						fullString = fullString + resultB;
+							  	 
+					    break;
+					  case "c":
+				     	let resC = c.join('')
+						var resultC = resC.replace(/,/g, "");
+						fullString = fullString + resultC;
+					    break;
+
+					  case "d":
+					    let resD = d.join('')
+						var resultD = resD.replace(/,/g, "");
+						fullString = fullString + resultD;
+					    break;
+					  case "e":
+					  	let resE = e.join('')
+						var resultE = resE.replace(/,/g, "");
+						fullString = fullString + resultE;
+					    break;
+					  case "f":
+					  	let resF = f.join('')
+						var resultF = resF.replace(/,/g, "");
+						fullString = fullString + resultF;
+					    break;
+					  case "g":
+					  	let resG = g.join('')
+						var resultG = resG.replace(/,/g, "");
+						fullString = fullString + resultG;
+					    break;
+					  case "h":
+					  	let resH = h.join('')
+						var resultH = resH.replace(/,/g, "");
+						fullString = fullString + resultH;
+					    break;
+					  case "i":
+					  	let resIX = ix.join('')
+						var resultIX = resIX.replace(/,/g, "");
+						fullString = fullString + resultIX;
+					    break;
+					  case "j":
+					  	let resJ = j.join('')
+						var resultJ = resJ.replace(/,/g, "");
+						fullString = fullString + resultJ;
+					    break;
+					  case "k":
+					  	let resK = k.join('')
+						var resultK = resK.replace(/,/g, "");
+						fullString = fullString + resultK;
+					    break;
+					  case "l":
+					  	let resL = l.join('')
+						var resultL = resL.replace(/,/g, "");
+						fullString = fullString + resultL;
+					    break;
+					  case "m":
+					  	let resM = m.join('')
+						var resultM = resM.replace(/,/g, "");
+						fullString = fullString + resultM;
+					    break;
+					  case "n":
+					  	let resN = n.join('')
+						var resultN = resN.replace(/,/g, "");
+						fullString = fullString + resultN;
+					    break;
+					  case "o":
+					  	let resO = o.join('')
+						var resultO = resO.replace(/,/g, "");
+						fullString = fullString + resultO;
+					    break;
+					  case "p":
+					  	let resP = p.join('')
+						var resultP = resP.replace(/,/g, "");
+						fullString = fullString + resultP;
+					    break;
+					  case "q":
+					    let resQ = q.join('')
+						var resultQ = resQ.replace(/,/g, "");
+						fullString = fullString + resultQ;  
+					    break;
+					  case "r":
+					    let resR = r.join('')
+						var resultR = resR.replace(/,/g, "");
+						fullString = fullString + resultR;  
+					    break;
+					  case "s":
+					  	let resS = s.join('')
+						var resultS = resS.replace(/,/g, "");
+						fullString = fullString + resultS;
+					    break;
+					  case "t":
+					    let resT = t.join('')
+						var resultT = resT.replace(/,/g, "");
+						fullString = fullString + resultT;  
+					    break;
+					  case "u":
+					    let resU = u.join('')
+						var resultU = resU.replace(/,/g, "");
+						fullString = fullString + resultU;  
+					    break;
+					  case "v":
+					    let resV = v.join('')
+						var resultV = resV.replace(/,/g, "");
+						fullString = fullString + resultV;  
+					    break;
+					  case "w":
+					    let resW = w.join('')
+						var resultW = resW.replace(/,/g, "");
+						fullString = fullString + resultW;  
+					    break;
+					  case "x":
+					    let resX = x.join('')
+						var resultX = resX.replace(/,/g, "");
+						fullString = fullString + resultX;  
+					    break;
+					  case "y":
+					    let resY = y.join('')
+						var resultY = resY.replace(/,/g, "");
+						fullString = fullString + resultY;  
+					    break;
+					  case "z":
+					    let resZ = z.join('')
+						var resultZ = resZ.replace(/,/g, "");
+						fullString = fullString + resultZ;  
+					    break;
+					  case "<":
+					  	if(inputToArray[i+1] == 3){
+							let resHeart = heart.join('')
+							var resultHeart = resHeart.replace(/,/g, "");
+							fullString = fullString + resultHeart; 
+					  	}
+					  	break;
+					  case "1":
+					    let resOne = one.join('')
+						var resultOne = resOne.replace(/,/g, "");
+						fullString = fullString + resultOne;
+						break;
+					  case "2":
+					    let resTwo = two.join('')
+						var resultTwo = resTwo.replace(/,/g, "");
+						fullString = fullString + resultTwo;
+						break;
+					  case "3":
+					  	if(inputToArray[i-1] != "<"){
+							let resThree = three.join('')
+							var resultThree = resThree.replace(/,/g, "");
+							fullString = fullString + resultThree; 
+					  	}
+
+						break;
+					  case "4":
+					    let resFour = four.join('')
+						var resultFour = resFour.replace(/,/g, "");
+						fullString = fullString + resultFour;
+						break;
+					  case "5":
+					    let resFive = five.join('')
+						var resultFive = resFive.replace(/,/g, "");
+						fullString = fullString + resultFive;
+						break;
+					  case "6":
+					    let resSix = six.join('')
+						var resultSix = resSix.replace(/,/g, "");
+						fullString = fullString + resultSix;
+						break;
+					  case "7":
+					    let resSeven = seven.join('')
+						var resultSeven = resSeven.replace(/,/g, "");
+						fullString = fullString + resultSeven;
+						break;
+					  case "8":
+					    let resEight = eight.join('')
+						var resultEight = resEight.replace(/,/g, "");
+						fullString = fullString + resultEight;
+						break;
+					  case "9":
+					    let resNine = nine.join('')
+						var resultNine = resNine.replace(/,/g, "");
+						fullString = fullString + resultNine;
+						break;
+					  case "0":
+					    let resZero = zero.join('')
+						var resultZero = resZero.replace(/,/g, "");
+						fullString = fullString + resultZero;
+						break;
+					  default:
+					    // code block
+					}
+
+				   document.getElementById("emojiTextArea").value = fullString;
+			  	   var Cbtn = document.getElementById("CopyButton");
+			       Cbtn.innerHTML = "Copy text"; 
+			 
+			}
+
+		}
+
+		function copyText() {
+			  /* Get the text field */
+			  var copyText = document.getElementById("emojiTextArea");
+
+			  /* Select the text field */
+			  copyText.select();
+			  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+			  /* Copy the text inside the text field */
+			  document.execCommand("copy");
+
+			  var btn = document.getElementById("CopyButton");
+			  btn.innerHTML = "Copied!";
+
+
+			  
+			}
+
+	</script>
+</body>
+
+
+</html>
+
